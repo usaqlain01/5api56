@@ -76,6 +76,7 @@ class UserController extends BaseController
 
     /**
      * @Route("/login", name="security_login_form")
+     * 
      */
     public function loginAction(Request $request)
     {
